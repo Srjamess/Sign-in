@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <h2>Sign In</h2>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Crear cuenta</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+                </div>
+                <span>o use correo electronico para registrarse:</span>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Correo">
+                <input type="text" placeholder="Password">
+                <button>Registrate</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Iniciar sesión</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+                </div>
+                <span>o use tu dirección de correo electrónico para acceder:</span>
+                <input type="email" placeholder="Correo Electronico o Usuario">
+                <input type="password" placeholder="Contraseña">
+                <a href="#">Olvide mi contraseña?</a>
+                <button>Acceder</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-right">
+                    <h1>Bienvenido!</h1>
+                    <p>Ahora puedes disfrutar de nuestros servicios, solo debes registrarte.</p>
+                    <button class="ghost" id="signUp">Registrate</button>
+                </div>
+                <div class="overlay-panel overlay-left">
+                    <h1>¡Hola!</h1>
+                    <p>Estamos emocionados de que estés aquí, inicia sesión ahora mismo.</p>
+                    <button class="ghost" id="signIn">Logueate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            © 2021 Copyright: Todos los derechos reservados | Diseñado con <i class="fa fa-heart"></i> por James 
+        </p>
+    </footer>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
